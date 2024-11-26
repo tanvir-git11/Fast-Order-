@@ -1,0 +1,60 @@
+/* General Reset */
+body, h1, p, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #007bff, #6610f2);
+    font-family: 'Arial', sans-serif;
+    color: rgb(255, 255, 255);
+  }
+  
+  #content-wrapper {
+    background: #1f242d;
+    color: #fefefe;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  /* Close Button */
+  #close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  #close-btn:hover {
+    color: #ff0000;
+  }
+  
+  /* Heading */
+  h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #0ef;
+  }
+  
+  /* Description */
+  p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
